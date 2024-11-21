@@ -1,0 +1,65 @@
+.navbar{
+    border: 2px solid black;
+    width: 15%;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+}
+.prof{
+    color: black;
+    margin-bottom: 20px;
+    padding: 10px;
+    text-align: center;
+    border-bottom: 2px solid rgba(86, 88, 84, 0.142);
+    text-decoration: none;
+}
+.list{
+    color: black;
+    margin-bottom: 20px;
+    padding: 10px;
+    text-align: center;
+    border-bottom: 2px solid rgba(86, 88, 84, 0.142);
+    text-decoration: none;
+}
+.person{
+    color: black;
+    padding: 10px;
+    text-align: center;
+    border-bottom: 2px solid rgba(86, 88, 84, 0.142);
+    text-decoration: none;
+}
+
+
+
+
+/* hover */
+
+
+
+
+
+.prof:hover{
+    transition: 0.2s ease-in;
+    transform: scale(0.9);
+    background:  rgba(86, 88, 84, 0.142);
+}
+.list:hover{
+    transition: 0.2s ease-in;
+    transform: scale(0.9);
+    background:  rgba(86, 88, 84, 0.142);
+}
+.person:hover{
+    transition: 0.2s ease-in;
+    transform: scale(0.9);
+    background:  rgba(86, 88, 84, 0.142);
+}
+
+
+
+
+
+
+
+
+
+

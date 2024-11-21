@@ -1,0 +1,29 @@
+.img{
+    border-radius: 20px;
+    border: 1px solid black;
+    width: 100px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+.post{
+    margin: 10px 10px;
+}
+.post div{
+    display: flex;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
