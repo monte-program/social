@@ -1,5 +1,5 @@
 import style from './Navbar.module.css';
-
+import {NavLink} from 'react-router-dom';
 
 
 
@@ -7,9 +7,9 @@ import style from './Navbar.module.css';
 function Navbar(){
     return(
       <div className={style.navbar}>
-        <a href="" className={style.prof}>Профиль</a>
-        <a href="" className={style.list}>Сообщения</a>
-        <a href=""className={style.person}>Пользователи</a>
+        <NavLink  to="/profile" className={style.prof}>Профиль</NavLink>
+        <NavLink  to="/message" className={style.list}>Сообщения</NavLink>
+        <NavLink to="/users" className={style.person}>Пользователи</NavLink >
      </div>
     );
   }
