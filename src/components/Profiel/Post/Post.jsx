@@ -1,6 +1,18 @@
 import style from './Post.module.css'
 import img from '../../../img/dino-one.png'
-function Post ({postText}){
+import heart from '../../../img/heart_16x9.png';
+
+
+
+
+
+
+
+
+
+
+
+function Post ({postText, namber, }){
     return(
 
 
@@ -14,6 +26,8 @@ function Post ({postText}){
         <p>
         {postText}
         </p>
+         <img src={heart} alt="" className={style.heart}/>
+         <span>  {namber}  </span>
       </div>
     )
 }
