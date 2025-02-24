@@ -1,15 +1,15 @@
 import style from './Friends.module.css'
+import PostFriends from '../PostFriends/PostFriends';  
 
 
 
-
-function Friends(){
+function Friends({friend}){
     return(
-        <div className={Friends}>
+        <div className={style.friend}>
 
-        Друзья
+    {friend.map(icon => <PostFriends img={icon.img} name={icon.name}></PostFriends>)}  
 
-            
+
         </div>
     )
 }

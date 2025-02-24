@@ -12,8 +12,12 @@
     display: flex;
     align-items: center;
 }
-
-
+.heart{
+    width: 50px;
+}
+.postic{
+    display: flex,
+}
 
 
 

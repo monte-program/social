@@ -1,26 +1,12 @@
 import style from './Dialogs.module.css';
 import Message from './Message/Message';
 import DialogsNavlink from './DialogsNavlink/DialogsNavlink.jsx';
-let dialogNames = [{name: 'Иван', id:0}
-    ,{name: 'Петрович', id:1}
-    ,{name: 'Петя', id:2}
-    ,{name: 'Светлана', id:3}
-]
-
-
-
-let messagesItemps = [{message: 'Hello' , id:0}
-        ,{message: 'Hello World' , id:1}
-        ,{message: 'Привет мир' , id:2}
-        ,{message: 'Как дела?' , id:3}
-]
 
 
 
 
 
-
-function Dialogs(){
+function Dialogs({dialogNames, messagesItemps}){
     return(
         <div className={style.dialogs}>
 

@@ -11,7 +11,6 @@ import heart from '../../../img/heart_16x9.png';
 
 
 
-
 function Post ({postText, namber, }){
     return(
 
@@ -26,8 +25,10 @@ function Post ({postText, namber, }){
         <p>
         {postText}
         </p>
+        <div className={style.postic}>
          <img src={heart} alt="" className={style.heart}/>
          <span>  {namber}  </span>
+         </div>
       </div>
     )
 }
